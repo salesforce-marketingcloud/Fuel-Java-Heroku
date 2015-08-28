@@ -1,38 +1,18 @@
-# java-getting-started
+# Fuel (for Java)
 
-A barebones Java app, which can easily be deployed to Heroku.  
+This application allows users to utilize Salesforce Marketing Cloud's Fuel [Java SDK] [1]. You can learn more about the Fuel SDKs on our [code@ website] [2].
 
-This application support the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
+For step-by-step instructions on creating a Salesforce Marketing Cloud ClientID and ClientSecret, visit:
+[Salesforce Marketing Cloud - App Center] [3]
 
-## Running Locally
 
-Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+## Deploy to Heroku
 
-```sh
-$ git clone https://github.com/heroku/java-getting-started.git
-$ cd java-getting-started
-$ mvn install
-$ foreman start web
-```
+You can deploy this app to Heroku and have it up and running instantly.
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-If you're going to use a database, ensure you have a local `.env` file that reads something like this:
 
-```
-DATABASE_URL=postgres://localhost:5432/java_database_name
-```
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-## Documentation
-
-For more information about using Java on Heroku, see these Dev Center articles:
-
-- [Java on Heroku](https://devcenter.heroku.com/categories/java)
+[1]: https://github.com/salesforcefuel/FuelSDK-Java.git/
+[2]: https://code.exacttarget.com/apis-sdks/fuel-sdks/
+[3]: http://code.exacttarget.com/apis-sdks/rest-api/using-app-center-to-get-an-api-key.html

@@ -1,6 +1,13 @@
 {
-  "name": "Getting Started with Java on Heroku",
-  "description": "A barebones Java app, which can easily be deployed to Heroku.",
-  "image": "heroku/java",
-  "addons": [ "heroku-postgresql" ]
+  "name": "Salesforce Fuel for Java",
+  "description": "Salesforce Marketing Cloud Fuel's Java SDK",
+  "repository": "https://github.com/salesforcefuel/Fuel-Java-Heroku.git",
+  "logo": "http://image.s6.exacttarget.com/lib/fe9112727360007b77/m/1/Salesforce_Marketing_Cloud.png",
+  "keywords": [
+    "salesforce",
+    "fuel",
+    "java"
+  ],
+  "addons": [],
+  "env": {}
 }
